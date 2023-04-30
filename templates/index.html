@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+<html>
+  <head>
+    <title>File Upload Form</title>
+  </head>
+  <body>
+    <h1 class="head">File Upload Form</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <br>
+      <br>
+      <label for="output">Select Output from Dropdown:</label>
+      <br>
+       <select name="output" id="output">
+        <option value="csv">CSV</option>
+        <option value="profile">Pandas Profiling Report</option>
+        <option value="automl">Build Model</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
