@@ -22,5 +22,5 @@ setup(
     version="0.0.0.1",
     author = ["Nalin","Sri","Kavin","Nandu"],
     packages = find_packages(),
-    install_requires = find_req('Requirements.txt')
+    install_requires = find_req('requirements.txt')
 )
