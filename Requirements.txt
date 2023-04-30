@@ -1,0 +1,10 @@
+numpy 
+pandas
+pandas_profiling
+dill
+flask
+flaml
+scikit-learn
+evalml
+-e .
+ 
